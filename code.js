@@ -3,8 +3,14 @@ const helloWorld = function () {
     return "Hello, World!";
 }
 
-function sayHello() {
-    return 'Hello';
+function sayHello(input) {
+    if (input === "Alex") {
+        return "Hello, Alex!";
+    } if (input === "Pat") {
+        return "Hello, Pat!"
+    } else {
+        return "Hello, Jane!";
+    }
 }
 //addOne
 // function addOne()
