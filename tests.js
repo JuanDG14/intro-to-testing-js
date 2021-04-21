@@ -33,6 +33,15 @@ describe('sayHello', function() {
     it("should never return 'undefined' when called", function () {
         expect(sayHello()).not.toBe(undefined);
     });
+    it('should return "Hello, World" when called', function () {
+        expect(sayHello()).toBe("Hello, World!")
+    });
+    it("should return 'true' when called", function () {
+        expect(sayHello(true)).toBe("Hello, World!")
+    });
+    it("should return 'false' when called", function () {
+        expect(sayHello(false)).toBe("Hello, World!")
+    });
 });
 // describe("addOne", function () {
 //     it('should be a defined function', function () {
