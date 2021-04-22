@@ -27,5 +27,19 @@ function sayHello(input) {
     }
 }
 
-//addOne
-// function addOne()
+function isFive () {
+    return isFive
+}
+
+function isEven () {
+
+}
+
+function isVowel () {
+
+}
+
+function add () {
+
+}
+
